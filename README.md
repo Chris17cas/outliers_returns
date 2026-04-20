@@ -25,7 +25,7 @@ How to detect extreme log returns (±3 standard deviations) in EUR/USD 5-minute 
 
 ## Exploratory Data Analysis
 - Visualized log returns over time
-- Built a histogram with density curve to analyze distribution
+- Built a histogram to analyze distribution
 - Identified extreme values visually
 - Calculated and plotted volatility to observe its behavior over time
 
