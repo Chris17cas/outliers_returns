@@ -45,7 +45,7 @@ A statistical model based on standard deviation thresholds was implemented:
 
 ---
 
-## Implementarion
+## Implementation
 The model was applied directly to the DataFrame:
 
 - Compared each log return against upper and lower thresholds
