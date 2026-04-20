@@ -5,12 +5,12 @@ This project analyzes the EUR/USD exchange rate at 5-minute intervals to detect 
 
 ---
 
-## Ask
+## Problem Defintion
 How to detect extreme log returns (±3 standard deviations) in EUR/USD 5-minute data and convert them into discrete trading signals within a DataFrame?
 
 ---
 
-## Prepare
+## Data Collection & Preparation
 - Data source: Yahoo Finance (EUR/USD, 5-minute timeframe)
 - Selected variable: Close price
 - Data transformation:
@@ -20,7 +20,7 @@ How to detect extreme log returns (±3 standard deviations) in EUR/USD 5-minute 
 
 ---
 
-## Explore
+## Exploratory Data Analysis
 - Visualized log returns over time
 - Built a histogram with density curve to analyze distribution
 - Identified extreme values visually
@@ -30,7 +30,7 @@ How to detect extreme log returns (±3 standard deviations) in EUR/USD 5-minute 
 
 ---
 
-## Model
+## Modeling Approach
 A statistical model based on standard deviation thresholds was implemented:
 
 - Computed mean (μ) and standard deviation (σ) of log returns
@@ -45,7 +45,7 @@ A statistical model based on standard deviation thresholds was implemented:
 
 ---
 
-## Apply
+## Implementarion
 The model was applied directly to the DataFrame:
 
 - Compared each log return against upper and lower thresholds
@@ -56,7 +56,7 @@ The model was applied directly to the DataFrame:
 
 ---
 
-## Act
+## Insights & Decisions
 - Extreme values (±3σ) represent statistically rare events
 - These events visually coincide with periods of increased volatility
 - Signals derived from these anomalies can be used as a basis for quantitative strategies
@@ -65,7 +65,7 @@ The model was applied directly to the DataFrame:
 
 ---
 
-## Evaluate
+## Evaluation & Validation
 
 ### Strengths
 - Simple and interpretable model
