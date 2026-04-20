@@ -90,13 +90,13 @@ The model was applied directly to the DataFrame:
 ![Candles and signals](images/candles_graph_eurusd.png)
 
 ### Outliers Distribution
-![Histogram](images\log_returns_histogram.png)
+![Histogram](images/log_returns_histogram.png)
 
 ### Outliers Dashboard
-![Outliers](images\dashboard_returns.png)
+![Outliers](images/dashboard_returns.png)
 
 ### Dataframe
-![Dataframe](images\dataframe_filter_long_short.png)
+![Dataframe](images/dataframe_filter_long_short.png)
 
 
 
