@@ -20,6 +20,9 @@ How to detect extreme log returns (±3 standard deviations) in EUR/USD 5-minute 
 
 ---
 
+### Dataframe
+![Dataframe](images/dataframe_filter_long_short.png)
+
 ## Exploratory Data Analysis
 - Visualized log returns over time
 - Built a histogram with density curve to analyze distribution
@@ -29,6 +32,9 @@ How to detect extreme log returns (±3 standard deviations) in EUR/USD 5-minute 
 > Note: No formal statistical validation of stationarity or variance stability was performed.
 
 ---
+
+### Outliers Distribution
+![Histogram](images/log_returns_histogram.png)
 
 ## Modeling Approach
 A statistical model based on standard deviation thresholds was implemented:
@@ -44,6 +50,8 @@ A statistical model based on standard deviation thresholds was implemented:
   - **0** → normal behavior
 
 ---
+### Outliers Dashboard
+![Outliers](images/dashboard_returns.png)
 
 ## Implementation
 The model was applied directly to the DataFrame:
@@ -53,6 +61,8 @@ The model was applied directly to the DataFrame:
   - 1 (sell), -1 (buy), 0 (neutral)
 - Integrated signals into the dataset
 - Visualized anomalies on the time series
+### Candles and signals
+![Candles and signals](images/candles_graph_eurusd.png)
 
 ---
 
@@ -83,22 +93,6 @@ The model was applied directly to the DataFrame:
 - A full trading system would require risk management and exit strategies
 
 ---
-
-## Visualizations
-
-### Candles and signals
-![Candles and signals](images/candles_graph_eurusd.png)
-
-### Outliers Distribution
-![Histogram](images/log_returns_histogram.png)
-
-### Outliers Dashboard
-![Outliers](images/dashboard_returns.png)
-
-### Dataframe
-![Dataframe](images/dataframe_filter_long_short.png)
-
-
 
 ---
 
